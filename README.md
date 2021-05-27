@@ -1,4 +1,4 @@
-# responsivo_two
+# Aplicativo Responsivo Two
 
 A new Flutter project.
 
