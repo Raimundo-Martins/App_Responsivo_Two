@@ -22,7 +22,7 @@ class ResponsiveMenuAction extends StatelessWidget {
         CircleAvatar(
           radius: 16,
           backgroundImage: NetworkImage(
-              'https://media-exp1.licdn.com/dms/image/D5635AQE06DiJidl2gg/profile-framedphoto-shrink_200_200/0/1621164258815?e=1622228400&v=beta&t=hXfamNnF2rkBtjbAPXo0W3hX37ja8vDRoexCqC0Q_2g'),
+              'https://scontent.fjdo1-2.fna.fbcdn.net/v/t1.6435-9/187292263_1837889686380582_8418647208759133226_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=x7UrpAyZmp8AX-8VsOl&_nc_ht=scontent.fjdo1-2.fna&oh=99e3872d3d5232540a21a817ff671145&oe=60D6D3A4'),
         )
       ],
     );

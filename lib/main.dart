@@ -15,12 +15,16 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       builder: (context, child) => ResponsiveWrapper.builder(
-          ClampingScrollWrapper.builder(context, child!),
-          defaultScale: true, minWidth: 450, breakpoints: [
-            ResponsiveBreakpoint.resize(450, name: MOBILE),
-            ResponsiveBreakpoint.resize(700, name: TABLET),
-            ResponsiveBreakpoint.resize(800, name: DESKTOP),
-          ]),
+        ClampingScrollWrapper.builder(context, child!),
+        defaultScale: true,
+        minWidth: 450,
+        defaultName: MOBILE,
+        breakpoints: [
+          ResponsiveBreakpoint.resize(450, name: MOBILE),
+          ResponsiveBreakpoint.resize(700, name: TABLET),
+          ResponsiveBreakpoint.resize(800, name: DESKTOP),
+        ],
+      ),
       home: HomePage(),
     );
   }
